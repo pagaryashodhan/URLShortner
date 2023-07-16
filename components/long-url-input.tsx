@@ -3,13 +3,6 @@ import { RiQrCodeLine } from "react-icons/ri";
 import { URLContext } from "@/contexts/URLContext";
 import { makeURLShort } from "@/utils/makeURLShort";
 
-/*
- * TODO:
- *     ::
- *
- *
- */
-
 export function LongURLInput() {
   const urlContext = useContext(URLContext);
   const [isValidURL, setIsValidURL] = useState(true);

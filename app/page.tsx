@@ -86,7 +86,7 @@ export default function Home() {
         <h1 className="mb-12 text-slate-700 text-3xl text-center font-bold drop-shadow-xl">
           Make it shorter
         </h1>
-        <p>{ JSON.stringify(session, null, 2) }</p>
+        <p style={{display:"none"}}>{ JSON.stringify(session, null, 2) }</p>
         <LongURLInput />
         {storeURLRequestState === storeURLRequestStates.DONE && (
           <ShortURLOutput />
